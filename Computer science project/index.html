@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lan="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="styles.css">
+        <title>Djistrakas algorithm solver</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\jacob\Downloads\favicon.ico">
+    </head>
+    <body>
+     <canvas id="canvas" width="1000" height ="1000"></canvas>
+     <style>
+        .label {
+            
+            position: absolute;
+            top: 0px;
+            left: 150px;
+            height: 10px;
+        }
+        
+        </style>
+        <style>
+        
+        .textentry  {
+            position: absolute;
+            top: 30px;
+            left: 150px;
+            height: 20px;
+            
+        }
+ </style>
+ <style>
+    .buttonclear {
+    position: absolute;
+    top:30px;
+    left:400px;
+    height: 25px;
+    }
+ </style>
+    <style>
+        .buttonquestion {
+        position: absolute;
+        top:30px;
+        left:1000px;
+        height: 25px;
+        }
+     </style>
+   
+    <form>
+        <p><div><label for="NoPoints"class="label">How many points would you like?</label></div>
+      <div> <input type="number" class="textentry"id="NoPoints"/></div> 
+        </p>
+<button id="btn-clear" class="buttonclear">Clear Circles</button>
+    </form>
+
+     <script src="circle.js"> </script>
+     <script src="Algorithm.js"> </script>
+    </body>
+</html>
+<button onclick="location.href='Questions.html' "id="btn-questions" class="buttonquestion">Create random questions</button>
+    </form>
+   
+    <script src="Questions.html"> </script>
+     <script src="Questions.js"> </script>
+     <script src="Algorithm.js"> </script>
+    </body>
+</html>
+
